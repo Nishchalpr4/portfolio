@@ -1,0 +1,5 @@
+export const skills = ['C','C++','Python','HTML','CSS','React.js','Node.js','MySQL','MongoDB','OOPS','DSA','OS','CN','DBMS','YOLOv5','CNN','RNN','Generative AI','Docker','Jenkins','Git','GitHub','AWS']
+export const projects = [
+  { title:'Ambulance Detection System for Smart Traffic Signals', summary:'Real-time vision system that detects ambulances and prioritizes traffic light states.', stack:['Python','YOLOv5','OpenCV','PyTorch'], bullets:['Trained YOLOv5 on traffic footage to identify ambulances.','Used OpenCV for streaming, preprocessing, and tracking.','Simulated signal logic to change lights upon detection.'], image:'/images/projects/p1.png', link:'#' },
+  { title:'Multimodal RAG Application', summary:'RAG pipeline that indexes text, tables, and images in PDFs for better answers.', stack:['LangChain','Python','Chroma DB','OpenAI','Streamlit'], bullets:['Processed and indexed multimodal PDF content.','Summarized and returned structured answers.','Streamlit app for interactive querying and visualization.'], image:'/images/projects/p2.png', link:'#' }
+]

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap');
+@tailwind base; @tailwind components; @tailwind utilities;
+body{@apply bg-base text-text font-inter antialiased;background-image:theme('backgroundImage.radial-faint');}
+.container-fluid{@apply max-w-7xl mx-auto px-6;}
+.section{@apply py-24 md:py-28;}
+.kicker{@apply uppercase tracking-widest text-xs text-muted font-bold;}
+.card{@apply border border-border/60 bg-surface/60 rounded-2xl p-6 md:p-8 shadow-card backdrop-blur;}
+.badge{@apply inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-3 py-1 text-sm text-muted;}
+.btn{@apply inline-flex items-center gap-2 rounded-xl border border-border bg-surface px-4 py-2 font-bold text-text transition-transform;}
+.btn:hover{transform:translateY(-2px)} .btn-primary{@apply bg-gradient-to-r from-primary to-accent text-white border-transparent shadow-glow;}
+.orb{width:320px;height:320px;border-radius:9999px;background:radial-gradient(circle at 40% 35%, #7C3AED, #3B1F79 60%, #170F2B 100%);box-shadow:0 0 120px rgba(124,58,237,.35)}
